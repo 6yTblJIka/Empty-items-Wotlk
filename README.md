@@ -1,7 +1,18 @@
-# Empty-items-Wotlk
-add more than 7000 empty items to table "item_template" , this items can use and dont need modify DBC 
+# Empty-items-Wotlk-and-TBC
+add empty items to table "item_template" , this items can use and dont need modify DBC 
+
+Question: How many empty items are stored in item.dbc?
+Answer: 
+TBC = 6498 
+Wotlk = 8543
+
+Question: What base are they suitable for?
+Answer: For any database where "SoundOverrideSubclass" is present
 
 # Instal: 
-use HeidiSQL database editor , just execute to your World database .
+use HeidiSQL database editor , just execute to your World database "item_template" .
 
-# Tested TrinityCore - TDB 335.23011/3.3.5 branch
+
+
+before installation
+make a backup first
